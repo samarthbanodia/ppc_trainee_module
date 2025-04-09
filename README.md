@@ -104,10 +104,5 @@ By the end of this module, you will be able to:
 | 📍 Checkpoint 3 | PID Control                  | Tuning + response using velocity profile    |
 | 📍 Checkpoint 4 | Stanley Control              | Car tracking trajectory using Stanley       |
 
-Each checkpoint includes a corresponding `.ipynb` file with:  
-- Notes 📝  
-- Assignments 🧪  
-- Plots 📊  
-- Animations 🎞️  
 
 ---
