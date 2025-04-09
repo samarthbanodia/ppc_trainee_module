@@ -55,7 +55,7 @@ Together, they allow our autonomous race car to drive dynamically and intelligen
 
 ## 📝 Instructions
 
-- Trainees are required to update the shared task sheet: **Module Progress**
+- Trainees are required to update the shared task sheet: [**Module Progress**](https://docs.google.com/spreadsheets/d/1hXMS8LUICqV97NlydCMAdYh4nwJZYO785qBW0F9S0BI/edit?gid=131938418#gid=131938418)
 - **Documentation is mandatory** for each checkpoint:
   - Create a Google Doc titled `PPC_Module_YourName`
   - Document your learnings, errors faced, and any doubts
