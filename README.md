@@ -19,14 +19,14 @@ Our goal is to enable our car to **race autonomously between blue and yellow con
 
 <table>
   <tr>
-    <td align="center"><b>Delaunay Triangulation</b></td>
     <td align="center"><b>RRT Path Planning</b></td>
     <td align="center"><b>MPC Optimal Control</b></td>
+    <td align="center"><b>Bot Run (PPC)</b></td>
   </tr>
   <tr>
-    <td><img src="assets/delaunay_example.png" width="300"/></td>
-    <td><img src="assets/rrt_example.gif" width="300"/></td>
-    <td><img src="assets/mpc_example.gif" width="300"/></td>
+    <td><img src="assets/RRT.gif" width="300"/></td>
+    <td><img src="assets/MPC_sim.gif" width="300"/></td>
+    <td><img src="assets/Bot_Run.gif" width="300"/></td>
   </tr>
 </table>
 
