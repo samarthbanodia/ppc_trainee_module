@@ -62,7 +62,7 @@ Together, they allow our autonomous race car to drive dynamically and intelligen
   - Set sharing to **“anyone with the link”** and update the link in the task sheet
 - Don’t hesitate to reach out to **JDEs/DEs** if you're stuck or curious
 - Performance in this module will be used to judge your abilities and **assign subsystems** in the team
-- Most importantly, **have fun while learning 🚀**
+- Most importantly, **have fun while learning**
 
 ---
 
