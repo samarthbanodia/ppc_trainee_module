@@ -24,9 +24,9 @@ Our goal is to enable our car to **race autonomously between blue and yellow con
     <td align="center"><b>Bot Run (PPC)</b></td>
   </tr>
   <tr>
-    <td><img src="assets/RRT.gif" width="300"/></td>
-    <td><img src="assets/MPC_sim.gif" width="300"/></td>
-    <td><img src="assets/Bot_Run.gif" width="300"/></td>
+    <td><img src="assets/RRT.gif" height="300" width="300"/></td>
+    <td><img src="assets/MPC_sim.gif" height="300" width="300"/></td>
+    <td><img src="assets/Bot_Run.gif" height="300" width="300"/></td>
   </tr>
 </table>
 
