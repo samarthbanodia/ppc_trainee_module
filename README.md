@@ -1,7 +1,4 @@
 # **IITB Racing Autonomous: Path Planning & Controls Trainee Module**
-
-Welcome to the Path Planning & Controls (PPC) training module for first-year engineering students at **IITB Racing Autonomous**.
-
 ---
 
 ## 🏎️ Who We Are
