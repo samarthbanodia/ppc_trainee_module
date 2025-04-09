@@ -7,15 +7,15 @@ We are the Path Planning and Controls Subsystem (PPC) of **IITB Racing Driverles
 
 Our goal is to enable our car to **race autonomously between blue and yellow cones**, **complete a lap in the shortest possible time**, and **avoid collisions with any cones**. To achieve this, we focus on designing algorithms that generate **optimal paths** and provide **precise controls** to follow them.
 
-### 🧠 What We’ve Achieved So Far
-- 🧩 **Delaunay Triangulation** for fast and smooth raceline generation  
-- 🌀 **Optimized racelines** to reduce lap time  
-- 🚗 **Pure Pursuit** and **Stanley Controllers** for tracking paths  
-- 🔄 **Velocity profiling** based on curvature  
+### What We’ve Achieved So Far
+- **Delaunay Triangulation** for fast and smooth raceline generation  
+- **Optimized racelines** to reduce lap time  
+- **Pure Pursuit** and **Stanley Controllers** for tracking paths  
+- **Velocity profiling** based on curvature  
 
 ### 🔬 What We’re Currently Working On
-- 🌳 **RRT (Rapidly-exploring Random Trees)** for real-time path planning in unknown maps  
-- 🧠 **MPC (Model Predictive Control)** for generating optimal control actions considering dynamics  
+- **RRT (Rapidly-exploring Random Trees)** for real-time path planning in unknown maps  
+- **MPC (Model Predictive Control)** for generating optimal control actions considering dynamics  
 
 <table>
   <tr>
@@ -32,7 +32,7 @@ Our goal is to enable our car to **race autonomously between blue and yellow con
 
 ---
 
-## 💡 Introduction to Path Planning and Control
+## Introduction to Path Planning and Control
 
 **Path Planning and Control** is a critical subsystem that connects high-level perception with low-level actuation. It ensures that the autonomous race car not only knows **where to go** but also **how to get there** effectively and safely.
 
@@ -71,18 +71,18 @@ Together, they allow our autonomous race car to drive dynamically and intelligen
 This module is designed to give you a foundational understanding of the key concepts in Path Planning and Control. It is divided into **two main parts**:
 
 ### 1. Path Planning
-- 📍 Interpolation  
-- 📈 Basic Optimization  
-- ⚡ Velocity Profiling using Curvature
+- Interpolation  
+- Basic Optimization  
+- Velocity Profiling using Curvature
   
 ### 2. Controls
-- 🔧 PID Control  
-- 🚲 Bicycle Model  
-- 🧭 Stanley Controller  
+- PID Control  
+- Bicycle Model  
+- Stanley Controller  
 
 ---
 
-## ✅ Learning Outcomes
+## Learning Outcomes
 
 By the end of this module, you will be able to:
 - Interpolate smooth trajectories from cone maps  
