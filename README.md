@@ -10,7 +10,7 @@ Our goal is to enable our car to **race autonomously between blue and yellow con
 ### What We’ve Achieved So Far
 - **Delaunay Triangulation** for fast and smooth raceline generation  
 - **Optimized racelines** to reduce lap time  
-- **Pure Pursuit** and **Stanley Controllers** for tracking paths  
+- **PID**, **Pure Pursuit** and **Stanley Controllers** for tracking paths  
 - **Velocity profiling** based on curvature  
 
 ### 🔬 What We’re Currently Working On
@@ -103,8 +103,8 @@ By the end of this module, you will be able to:
 
 | Checkpoint | Topic                        | Deliverable                                |
 |------------|------------------------------|--------------------------------------------|
-| 📍 Checkpoint 1 | Interpolation     | Midline interpolation from cone map         |
-| 📍 Checkpoint 2 | Optimization + Velocity Profile | Optimized path + velocity profile            |
+| 📍 Checkpoint 1 | Interpolation     | Interpolation of given waypoints       |
+| 📍 Checkpoint 2 | Optimization | Optimized path     |
 | 📍 Checkpoint 3 | PID & Stanley Control                  | Tuning of controllers   |
 | 📍 Checkpoint 4 | The Final Implementation          | Complete implementation of PPC pipline     |
 
