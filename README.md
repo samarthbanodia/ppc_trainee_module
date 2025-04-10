@@ -56,6 +56,7 @@ Together, they allow our autonomous race car to drive dynamically and intelligen
 ## 📝 Instructions
 
 - Fork this repository on your github and then clone that forked repository to your pc to start working on it
+- Run this command to install all the required libraries - ```pip3 install -r requirements.txt```
 - You need to commit and push the changes onto your forked remote repository after you complete each checkpoint
 - Trainees are required to update the shared task sheet: [**Module Progress**](https://docs.google.com/spreadsheets/d/1hXMS8LUICqV97NlydCMAdYh4nwJZYO785qBW0F9S0BI/edit?gid=131938418#gid=131938418)
 - **Documentation is mandatory** for each checkpoint:
@@ -104,8 +105,8 @@ By the end of this module, you will be able to:
 |------------|------------------------------|--------------------------------------------|
 | 📍 Checkpoint 1 | Interpolation     | Midline interpolation from cone map         |
 | 📍 Checkpoint 2 | Optimization + Velocity Profile | Optimized path + velocity profile            |
-| 📍 Checkpoint 3 | PID Control                  | Tuning + response using velocity profile    |
-| 📍 Checkpoint 4 | Stanley Control              | Car tracking trajectory using Stanley       |
+| 📍 Checkpoint 3 | PID & Stanley Control                  | Tuning of controllers   |
+| 📍 Checkpoint 4 | The Final Implementation          | Complete implementation of PPC pipline     |
 
 
 ---
