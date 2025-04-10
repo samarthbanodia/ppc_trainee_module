@@ -55,10 +55,13 @@ Together, they allow our autonomous race car to drive dynamically and intelligen
 
 ## 📝 Instructions
 
+- Fork this repository on your github and then clone that forked repository to your pc to start working on it
+- You need to commit and push the changes onto your forked remote repository after you complete each checkpoint
 - Trainees are required to update the shared task sheet: [**Module Progress**](https://docs.google.com/spreadsheets/d/1hXMS8LUICqV97NlydCMAdYh4nwJZYO785qBW0F9S0BI/edit?gid=131938418#gid=131938418)
 - **Documentation is mandatory** for each checkpoint:
   - Create a Google Doc titled `PPC_Module_YourName`
-  - Document your learnings, errors faced, and any doubts
+  - Submit all the required code snippets= and videos/gifs in the doc
+  - Also document your learnings, errors faced, and any doubts
   - Set sharing to **“anyone with the link”** and update the link in the task sheet
 - Don’t hesitate to reach out to **JDEs/DEs** if you're stuck or curious
 - Performance in this module will be used to judge your abilities and **assign subsystems** in the team
