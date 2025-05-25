@@ -1,46 +1,45 @@
 import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
 from scipy.interpolate import CubicSpline
+import numpy as np
 
-def main():
-    waypoints = pd.read_csv('loop_track_waypoints.csv')
+def draw_track():
+    # Load the waypoint coordinates
+    data = pd.read_csv('loop_track_waypoints.csv')
+    data = data.drop(columns='Index')
+    coords = data.values
 
-    waypoints = waypoints.drop('Index', axis=1)
-    waypoints = waypoints.to_numpy()
-    
-    sum = 0
-    t = np.zeros(waypoints.shape[0])
-    
-    for i in range(waypoints.shape[0]-1):
-        t[i] = sum
-        x_dist = waypoints[i+1][0] - waypoints[i][0]
-        y_dist = waypoints[i+1][1] - waypoints[i][1]
-        sum += np.sqrt(x_dist**2 + y_dist**2)
-    
-    t[-1] = sum #last point's parameter value
-    
-    spline_x = CubicSpline(t, waypoints[:, 0])
-    spline_y = CubicSpline(t, waypoints[:, 1])
-    
-    
-    t_cont = np.linspace(t[0], t[-1], 1000) #scale
-    x_cont = spline_x(t_cont)
-    y_cont = spline_y(t_cont)
-    
-    plt.figure(figsize=(10, 7))
-    
-    plt.scatter(waypoints[:, 0], waypoints[:, 1], color='red', label='waypointss')
-    
-    plt.plot(x_cont, y_cont, color='blue', label='interpolation')
-    
+    # Compute cumulative distances as parameter values
+    param = np.zeros(len(coords))
+    dist = 0.0
+    for i in range(len(coords) - 1):
+        param[i] = dist
+        dx = coords[i + 1][0] - coords[i][0]
+        dy = coords[i + 1][1] - coords[i][1]
+        dist += np.hypot(dx, dy)
+    param[-1] = dist
+
+    # Create cubic splines for x and y coordinates
+    interp_x = CubicSpline(param, coords[:, 0])
+    interp_y = CubicSpline(param, coords[:, 1])
+
+    # Generate interpolated points
+    param_dense = np.linspace(param[0], param[-1], 1000)
+    smooth_x = interp_x(param_dense)
+    smooth_y = interp_y(param_dense)
+
+    # Plotting
+    plt.figure(figsize=(8, 6))
+    plt.scatter(coords[:, 0], coords[:, 1], color='green', label='Waypoints', marker='x')
+    plt.plot(smooth_x, smooth_y, color='navy', label='Interpolated Path', linewidth=2)
+
+    plt.xlabel('X Axis')
+    plt.ylabel('Y Axis')
+    plt.title('Smooth Path Using Cubic Spline')
     plt.legend()
     plt.grid(True)
-    
-    plt.axis('equal')
-    
+    plt.tight_layout()
     plt.show()
-    
 
-if __name__ == "__main__":
-    main()
+if __name__ == '__main__':
+    draw_track()
